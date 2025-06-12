@@ -6,9 +6,9 @@
 CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Arquivos do tema
-THEME_BASE_FILE="$CURRENT_DIR/tokyonight.conf"
-THEME_STATUS_FILE="$CURRENT_DIR/tokyonight-status-content.conf"
-THEME_STATUS_NO_FONT_FILE="$CURRENT_DIR/tokyonight-status-content-no-patched-font.conf"
+THEME_BASE_FILE="$CURRENT_DIR/src/tokyonight.conf"
+THEME_STATUS_FILE="$CURRENT_DIR/src/tokyonight-status-content.conf"
+THEME_STATUS_NO_FONT_FILE="$CURRENT_DIR/src/tokyonight-status-content-no-patched-font.conf"
 
 # Opções
 SHOW_STATUS_CONTENT_OPTION="@tokyonight_show_status_content"
