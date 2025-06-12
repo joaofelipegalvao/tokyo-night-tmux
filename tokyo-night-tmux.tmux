@@ -32,10 +32,10 @@ __load() {
   if [ "$status_content" != "0" ]; then
     if [ "$no_patched_font" != "1" ]; then
       # Com ícones (Nerd Font)
-      tmux source-file "$THEME_STATUS_FILE"
+      tmux source-file "$CURRENT_DIR/$THEME_STATUS_FILE"
     else
       # Sem ícones
-      tmux source-file "$THEME_STATUS_NO_FONT_FILE"
+      tmux source-file "$CURRENT_DIR/$THEME_STATUS_NO_FONT_FILE"
     fi
   fi
 }
