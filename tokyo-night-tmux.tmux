@@ -22,7 +22,7 @@ __cleanup() {
 
 __load() {
   # Carrega as cores base
-  tmux source-file "$THEME_BASE_FILE"
+  tmux source-file "$CURRENT_DIR/$THEME_BASE_FILE"
 
   # Verifica as opções
   local status_content=$(tmux show-option -gqv "$SHOW_STATUS_CONTENT_OPTION")
