@@ -56,12 +56,12 @@ Also see [tpm's install instructions](https://github.com/tmux-plugins/tpm#instal
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/tokyonight-tmux.git ~/.tmux/themes/tokyonight-tmux
+   git clone https://github.com/joaofelipegalvao/tokyo-night-tmux ~/.tmux/themes/tokyo-night-tmux
    ```
 
 2. Add the following line to your `.tmux.conf`:
    ```
-   run-shell "~/.tmux/themes/tokyonight-tmux/tokyonight.tmux"
+   run-shell "~/.tmux/themes/tokyo-night-tmux/tokyo-night-tmux.tmux"
    ```
 
 3. Reload tmux configuration:
@@ -69,30 +69,18 @@ Also see [tpm's install instructions](https://github.com/tmux-plugins/tpm#instal
    tmux source-file ~/.tmux.conf
    ```
 
----
-
 ## Configuration
 
 The theme comes with sensible defaults, but can be customized to your needs.
-
-### Plugin Support
-
-Tokyo Night tmux supports popular plugins for enhanced functionality:
-
-- [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight) - highlights when you press tmux prefix key
-- [tmux-battery](https://github.com/tmux-plugins/tmux-battery) - battery status in tmux status bar
-- [tmux-cpu](https://github.com/tmux-plugins/tmux-cpu) - CPU and GPU status in tmux status bar
 
 ## Color Palette
 
 Tokyo Night tmux uses the beautiful Tokyo Night color palette:
 
 - **Background**: Dark, modern background tones
-- **Foreground**: Clear, readable text colors  
+- **Foreground**: Clear, readable text colors
 - **Accent**: Vibrant blue and purple highlights
 - **Status**: Subtle grays for status information
-
----
 
 ## Contributing
 
@@ -108,23 +96,11 @@ There are many ways to contribute, from writing and improving documentation and 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
----
-
-## License
-
-Copyright © 2024-present [Seu Nome](https://github.com/seu-usuario)
-
-This project is [MIT](LICENSE) licensed.
-
----
-
 ## Acknowledgments
 
 - Inspired by the original [Nord tmux](https://github.com/nordtheme/tmux) theme
 - Based on the [Tokyo Night](https://github.com/folke/tokyonight.nvim) color palette
 - Thanks to all contributors who help make this theme better
-
----
 
 <div align="center">
 
