@@ -43,8 +43,6 @@ The theme supports popular plugins for a fluid and unobtrusive user interface tr
 
 [![plugins-tmux-prefix-highlight-1.png](https://i.postimg.cc/8CGzYTHy/plugins-tmux-prefix-highlight-1.png)](https://postimg.cc/9Dx2R5sT)
 
----
-
 ## Installation
 
 Thanks to existing plugin managers for tmux, Tokyo Night tmux can be installed for all platforms in a uniform way within a few lines of codes. The recommended manager is [tpm](https://github.com/tmux-plugins/tpm), but any other manager like [tundle](https://github.com/javier-lopez/tundle) can also be used.
