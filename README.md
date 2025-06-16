@@ -55,7 +55,7 @@ To automatically download and activate Tokyo Night tmux, follow the install inst
 
 - add
   ```
-  set -g @plugin "seu-usuario/tokyonight-tmux"
+  set -g @plugin "joaofelipegalvao/tokyo-night-tmux"
   ```
   to your `tmux.conf`, by default `.tmux.conf` located in your [home directory](https://en.wikipedia.org/wiki/Home_directory)
 - press the default key binding `prefix` + <kbd>I</kbd> to fetch and install the plugin
@@ -115,8 +115,6 @@ There are many ways to contribute, from writing and improving documentation and 
 - Thanks to all contributors who help make this theme better
 
 <div align="center">
-
-**[Installation](#installation)** • **[Configuration](#configuration)** • **[Contributing](#contributing)**
 
 Made with ❤️ for the tmux community
 
