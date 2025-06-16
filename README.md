@@ -1,5 +1,17 @@
 # Tokyo Night tmux
 
+<p align="center">
+  <a href="https://github.com/joaofelipegalvao/tokyo-night-tmux/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/joaofelipegalvao/tokyo-night-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=c0caf5&colorA=1a1b26&colorB=bb9af7"/>
+  </a>
+  <a href="#installation" target="_blank">
+    <img src="https://img.shields.io/badge/Installation-Guide-bb9af7?style=flat-square&labelColor=1a1b26&logo=tmux&logoColor=c0caf5"/>
+  </a>
+  <a href="#plugin-manager" target="_blank">
+    <img src="https://img.shields.io/badge/Plugin-Support-bb9af7?style=flat-square&labelColor=1a1b26&logo=pluggy&logoColor=c0caf5"/>
+  </a>
+</p>
+
 <div align="center">
 
 An elegant, dark and modern [tmux](https://tmux.github.io) color theme.
@@ -31,8 +43,6 @@ The theme supports popular plugins for a fluid and unobtrusive user interface tr
 
 [![plugins-tmux-prefix-highlight-1.png](https://i.postimg.cc/8CGzYTHy/plugins-tmux-prefix-highlight-1.png)](https://postimg.cc/9Dx2R5sT)
 
----
-
 ## Installation
 
 Thanks to existing plugin managers for tmux, Tokyo Night tmux can be installed for all platforms in a uniform way within a few lines of codes. The recommended manager is [tpm](https://github.com/tmux-plugins/tpm), but any other manager like [tundle](https://github.com/javier-lopez/tundle) can also be used.
@@ -43,7 +53,7 @@ To automatically download and activate Tokyo Night tmux, follow the install inst
 
 - add
   ```
-  set -g @plugin "seu-usuario/tokyonight-tmux"
+  set -g @plugin "joaofelipegalvao/tokyo-night-tmux"
   ```
   to your `tmux.conf`, by default `.tmux.conf` located in your [home directory](https://en.wikipedia.org/wiki/Home_directory)
 - press the default key binding `prefix` + <kbd>I</kbd> to fetch and install the plugin
@@ -103,8 +113,6 @@ There are many ways to contribute, from writing and improving documentation and 
 - Thanks to all contributors who help make this theme better
 
 <div align="center">
-
-**[Installation](#installation)** • **[Configuration](#configuration)** • **[Contributing](#contributing)**
 
 Made with ❤️ for the tmux community
 
