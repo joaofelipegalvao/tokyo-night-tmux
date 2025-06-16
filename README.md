@@ -1,5 +1,17 @@
 # Tokyo Night tmux
 
+<p align="center">
+  <a href="https://github.com/joaofelipegalvao/tokyo-night-tmux/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/joaofelipegalvao/tokyo-night-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=c0caf5&colorA=1a1b26&colorB=bb9af7"/>
+  </a>
+  <a href="#installation" target="_blank">
+    <img src="https://img.shields.io/badge/Installation-Guide-bb9af7?style=flat-square&labelColor=1a1b26&logo=tmux&logoColor=c0caf5"/>
+  </a>
+  <a href="#plugin-manager" target="_blank">
+    <img src="https://img.shields.io/badge/Plugin-Support-bb9af7?style=flat-square&labelColor=1a1b26&logo=pluggy&logoColor=c0caf5"/>
+  </a>
+</p>
+
 <div align="center">
 
 An elegant, dark and modern [tmux](https://tmux.github.io) color theme.
