@@ -30,7 +30,7 @@ tmux set -g @prefix_highlight_copy_mode_attr "fg=${PALLETE[bg]},bg=${PALLETE[mag
 #+--------+
 #+--- Bars ---+
 tmux set -g status-left "#[fg=${PALLETE[bg]},bg=${PALLETE[green]},bold] #S #[fg=${PALLETE[green]},bg=${PALLETE[bg]},nobold,noitalics,nounderscore]"
-tmux set -g status-right "#{prefix_highlight}#[fg=${PALLETE[bg_highlight]},bg=${PALLETE[bg]},nobold,noitalics,nounderscore]#[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}] ${DATE_FORMAT} #[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore]#[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}] 󰥔 ${TIME_FORMAT} #[fg=${PALLETE[magenta]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore]#[fg=${PALLETE[bg]},bg=${PALLETE[magenta]},bold] #H "
+tmux set -g status-right "#{prefix_highlight}#[fg=${PALLETE[bg_highlight]},bg=${PALLETE[bg]},nobold,noitalics,nounderscore]#[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}] ${DATE_FORMAT} #[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore]#[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}] ${TIME_FORMAT} #[fg=${PALLETE[magenta]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore]#[fg=${PALLETE[bg]},bg=${PALLETE[magenta]},bold] #H "
 
 #+--- Windows ---+
 tmux set -g window-status-format "#[fg=${PALLETE[bg]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore] #[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}]#I #[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]},nobold,noitalics,nounderscore] #[fg=${PALLETE[fg]},bg=${PALLETE[bg_highlight]}]#W #F #[fg=${PALLETE[bg_highlight]},bg=${PALLETE[bg]},nobold,noitalics,nounderscore]"
